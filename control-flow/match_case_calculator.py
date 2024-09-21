@@ -12,7 +12,7 @@ match operation:
     case '/':
         if num2 == 0:
             print("Cannot divide by zero.")
-            return 0;
+            exit(0)
         else:
             result = num1 / num2
 print("The result is {0}".format(result))
