@@ -4,4 +4,14 @@ operation = input("Choose the operation (+, -, *, /):")
 
 match operation:
     case '+':
-        print("")
+        result = num1 + num2
+    case '-':
+        result = num1 - num2
+    case '*':
+        result = num1 * num2
+    case '/':
+        if num2 == '0':
+            print("Cannot divide by zero.")
+        else:
+            result = num1 / num2
+print("The result is {0}".format(result))
