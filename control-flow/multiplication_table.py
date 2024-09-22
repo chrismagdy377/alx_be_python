@@ -1,5 +1,5 @@
 number = int(input("Enter a number to see its multiplication table:"))
 
 for x in range(1,11):
-    result = x * number
-    print("{0} * {1} = {2}".format(number, x, result))
+    print(f'{number} * {x} = {number * x}')
+
