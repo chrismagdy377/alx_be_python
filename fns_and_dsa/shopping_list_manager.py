@@ -13,10 +13,12 @@ def main():
 
         if choice == '1':
             # Prompt for and add an item
-            
+            new_item = input("Add Your Item:")
+            shopping_list.append(new_item)
             pass
         elif choice == '2':
             # Prompt for and remove an item
+            
             pass
         elif choice == '3':
             # Display the shopping list
