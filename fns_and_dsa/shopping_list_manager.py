@@ -23,7 +23,7 @@ def main():
             pass
         elif choice == '3':
             # Display the shopping list
-            
+            print(shopping_list)
             pass
         elif choice == '4':
             print("Goodbye!")
