@@ -2,6 +2,6 @@ import datetime
 
 def display_current_datetime(current_date):
     current_date = datetime.datetime.now()
-    print(current_date)
+    return current_date
 
-display_current_datetime()
+display_current_datetime(current_date)
