@@ -18,10 +18,12 @@ def main():
             pass
         elif choice == '2':
             # Prompt for and remove an item
-            
+            remove_item = input("Remove Your Item:")
+            shopping_list.remove(remove_item)
             pass
         elif choice == '3':
             # Display the shopping list
+            
             pass
         elif choice == '4':
             print("Goodbye!")
