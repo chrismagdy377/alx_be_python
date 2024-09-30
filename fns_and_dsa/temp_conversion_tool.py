@@ -6,7 +6,7 @@ temperature_type = input("Is this temperature in Celsius or Fahrenheit? (C/F): "
 
 def convert_to_celsius(fahrenheit = 0):
     if temperature_type == "F":
-        fahrenheit = (FAHRENHEIT_TO_CELSIUS_FACTOR) * (temperature - 32)
+        fahrenheit = (temperature - 32) * (FAHRENHEIT_TO_CELSIUS_FACTOR)
         print("{0}°F is {1}°C".format(temperature, fahrenheit))
         return fahrenheit
         pass
